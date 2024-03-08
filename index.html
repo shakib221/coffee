@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop website design</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="https://shakibkoushar.wordpress.com/" target="_blank">home </a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>(Coffea arabica) 01</h3>
+                    <div class="price">$14.34/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>(Coffea caniphora) 02</h3>
+                    <div class="price">$14.55/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>(Coffea liberica) 03</h3>
+                    <div class="price">11.45/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>(Coffea excelsa) 04</h3>
+                    <div class="price">$11.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh coffee in the morning</h3>
+            <a href="#" class="btn">get yours now</a>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>What is the chemistry of coffee?</h3>
+                <p> Caffeine is the most famous chemical compound in coffee, but roasted coffee beans contain more than
+                    1,000 other compounds. Some of these chemicals are noxious but still are not unhealthy because they
+                    are present in such low amounts.
+                </p>
+                <p>You never hear anybody wake up and say, “I need a big dose of putrescine and dimethyl disulfide in my
+                    morning cup.” As Business Insider reports [1], these chemicals are present in decaying flesh
+                    (putrescine) and human feces (dimethyl disulfide) and give them their distinct odor.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="">
+                <h3>Instant Coffee</h3>
+                <div class="price">$11.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="">
+                <h3>Decaffeinated Coffee</h3>
+                <div class="price">$11.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="">
+                <h3> Canned Coffee</h3>
+                <div class="price">$10.99 <span>11.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="">
+                <h3>Coffee Milk</h3>
+                <div class="price">$10.99 <span>17.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="">
+                <h3>South Indian Coffee</h3>
+                <div class="price">$10.99 <span>21.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" alt="">
+                <h3>Pocillo coffee</h3>
+                <div class="price">$10.99 <span>19.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Honduras | Jose Martin Sarmiento Micro-Lot</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$19.99 <span>$21.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3> Mexico | Woman Power Zongolica</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$19.99 <span>$22.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Honduras | Estrella Lenca</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$19.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/review.jpg" alt="" class="quote">
+                <p>This place is amazing! They offered the best coffee and showed the best attitude to its costumers.
+                    Internet connection is very fast and is unlimited as well. This place is indeed perfect for studying
+                    and chilling out. It was very quiet and air-conditioned. I just want to keep coming back to this
+                    place. Thank you!</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>shakib</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/review.jpg" alt="" class="quote">
+                <p>A unique coffee shop to study and read books. No loud noises which will help you a lot to concentrate
+                    on what you do. They do have a variety of food and drinks you can select from. I honestly love the
+                    great interior all over the place. Trust me! You will never be disappointed for sure! A memorable
+                    place to relax!</p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>Priya</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/review.jpg" alt="" class="quote">
+                <p> Best coffee in the east side. If you are nearby and craving for some great coffee, this is where you
+                    go. I love the industrial vibe of the place and they have some bakery collection but not really
+                    fresh. The coffee is amazing though and they have good good outdoor and indoor seating!</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>Jeesu</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="row">
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input  type="submit" value="contact now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Cold Brew Coffee!</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Freddo Espresso!</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Caffè Marocchino!</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://www.facebook.com/shakib.koushar.7" class="fab fa-facebook-f" target="_blank"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://instagram.com/im_shakib_koushar?igshid=NmNmNjAwNzg=" class="fab fa-instagram"
+                target="_blank"></a>
+            <a href="https://www.linkedin.com/in/md-shakib-koushar-475509211" class="fab fa-linkedin"
+                target="_blank"></a>
+        </div>
+        <h3>
+            <div>
+                <a href="#">+91</a>
+                <a href="#">6203539159</a>
+            </div>
+            <div>
+                <a href="#"></a>
+                <a href="#">mdshakibktr@gmail.com</a>
+            </div>
+        </h3>
+        <div class="credit">created by <span>SHAKIB KOUSHAR</span> | all rights reserved</div>
+
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
